@@ -3,22 +3,27 @@
     "version": "1.0",
     "description": "Private by Design, A SundayPyjamas Product",
     "permissions": [
-        "alarms",
-        "contextMenus",
-        "storage",
-        "notifications",
-        "webRequest",
-        "webRequestBlocking",
-        "<all_urls>"
+        "declarativeNetRequest",
+        "declarativeNetRequestFeedback",
+        "*://*.doubleclick.net/*",
+        "*://partner.googleadservices.com/*",
+        "*://*.googlesyndication.com/*",
+        "*://*.google-analytics.com/*",
+        "*://creative.ak.fbcdn.net/*",
+        "*://*.adbrite.com/*",
+        "*://*.exponential.com/*",
+        "*://*.quantserve.com/*",
+        "*://*.scorecardresearch.com/*",
+        "*://*.zedo.com/*"
       ],
+      
     "background":{
-            "scripts": ["background.js"]
+            "service_worker": "background.js"
     },
 
     "icons": {
         "128": "icons/logo_128x128.png"
     },
 
-    "manifest_version": 2
-
+    "manifest_version": 3
 }
