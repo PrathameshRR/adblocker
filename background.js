@@ -1,6 +1,6 @@
 const defaultFilters = [
     "*://*.doubleclick.net/*",
-    "*://partner.googleadservices.com/*",
+    "*://*.googleadservices.com/*",
     "*://*.googlesyndication.com/*",
     "*://*.google-analytics.com/*",
     "*://creative.ak.fbcdn.net/*",
