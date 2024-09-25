@@ -1,4 +1,4 @@
-# SundayPyjamas Adblocker
+# SundayPyjamas Adblocker | Manifest v3
 
 ## Overview
 
